@@ -1,0 +1,14 @@
+Hace casi un año que estoy estudiando desarrollo web frontend, si bien mis conocimientos no son muy avanzados aun me esfuerzo día a día para seguir aprendiendo y mejorando.
+Me considero una persona proactiva, curiosa y resolutiva. Cuando me encuentro con un problema siempre intento investigar a fondo hasta dar con una solución.
+Deseo tener la oportunidad de ser parte de un equipo de trabajo donde pueda seguir desarrollando mis habilidades, donde pueda aprender de mis compañeros y aportar con todo lo que pueda a los proyectos que se me presenten. 
+
+He desarrollado todos mis conocimientos de forma autodidacta con cursos, certificaciones e investigando.
+Empecé haciendo cursos en youtube de HTML, CSS y Javascript. Luego descubrí varias paginas web como FreeCodeCamp, Openbootcamp, W3schools, stackoverflow, etc. Donde seguí aprendiendo.
+Tengo conocimientos en:
+-HTML
+-CSS
+-Javascript
+-React.js
+-Git
+-Photoshop
+-Responsive design
