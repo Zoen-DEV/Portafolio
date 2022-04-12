@@ -245,7 +245,7 @@ html {
         top: 1px;
     }
     .nav-toggle{
-        display: none;
+        display: none !important;
     }
     /* main */
     .main-container{
