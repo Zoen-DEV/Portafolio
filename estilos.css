@@ -245,7 +245,7 @@ html {
         top: 1px;
     }
     .nav-toggle{
-        display: none !important;
+        overflow: hidden;
     }
     /* main */
     .main-container{
