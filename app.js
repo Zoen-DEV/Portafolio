@@ -15,7 +15,7 @@ const texts = [
 	"REACT.JS"
 ];
 
-// Controls the speed of morphing.
+// control de velocidad del texto animado
 const morphTime = 1.5;
 const cooldownTime = 1;
 
@@ -41,9 +41,8 @@ function doMorph() {
 	setMorph(fraction);
 }
 
-// A lot of the magic happens here, this is what applies the blur filter to the text.
+// blur filter to the text.
 function setMorph(fraction) {
-	// fraction = Math.cos(fraction * Math.PI) / -2 + .5;
 	
 	elts.text2.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
 	elts.text2.style.opacity = `${Math.pow(fraction, 0.4) * 100}%`;
@@ -66,7 +65,7 @@ function doCooldown() {
 	elts.text1.style.opacity = "0%";
 }
 
-// Animation loop, which is called every frame.
+// Animation loop
 function animate() {
 	requestAnimationFrame(animate);
 	
@@ -90,3 +89,16 @@ function animate() {
 
 // Start the animation.
 animate();
+
+// Nav toggle
+const toggleLinks = document.querySelector('.toggle-links');
+const toggleBtn = document.querySelector('.nav-toggle');
+const main = document.querySelector('.main-container');
+const head = document.querySelector('.header');
+
+toggleBtn.addEventListener('click', (e) => {
+	toggleLinks.classList.toggle('show-links');
+	main.classList.toggle('main-withtoggle');
+	toggleBtn.classList.toggle('btn-toggle-active');
+	head.classList.toggle('header-withtoggle');
+})

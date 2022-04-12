@@ -17,17 +17,27 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <div class="nav-header">
+          <button class="fas fa-bars nav-toggle"></button>
           <a href="#inicio">
             <img class="logo" src="./images/logo.png" alt="logo"
           /></a>
-          <button class="nav-toggle">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
+          <ul class="links">
+            <li>
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li>
+              <a href="#conocimientos">Conocimientos</a>
+            </li>
+            <li>
+              <a href="#proyectos">Habilidades</a>
+            </li>
+            <li>
+              <a href="#sobre-mi">Sobre Mi</a>
+            </li>
+          </ul>
       </nav>
       <div class="links-container">
-        <ul class="links">
+        <ul class="toggle-links">
           <li>
             <a href="#inicio">Inicio</a>
           </li>
@@ -43,12 +53,12 @@
         </ul>
       </div>
     </header>
-    <section id="inicio" class="inicio-container">
-      <div class="inicio-info">
-        <span class="inicio-saludo">Hola, mi nombre es</span>
-        <h1 class="inicio-title">Enzo Gabriel Holgado</h1>
+    <article id="inicio" class="main-container">
+      <div class="main-info">
+        <span class="main-saludo">Hola, mi nombre es</span>
+        <h1 class="main-title">Enzo Gabriel Holgado</h1>
         <br />
-        <p class="inicio-descripcion">
+        <p class="main-descripcion">
           Soy desarrollador web front-end<br />
           Especializado en
           <span id="text1"></span>
@@ -56,30 +66,17 @@
         </p>
       </div>
       <img class="foto" src="./images/foto-perfil.png" alt="foto personal" />
-    </section>
+    </article>
     <section id="conocimientos" class="conocimientos-container">
       <h1 class="cono-title">Conocimientos</h1>
       <div class="habilidades">
-        <div class="habilidad">
-          <img class="habi-logo" src="./images/html.png" alt="html" />
-        </div>
-        <div class="habilidad">
-          <img class="habi-logo" src="./images/CSS.png" alt="css" />
-        </div>
-        <div class="habilidad">
-          <img class="habi-logo" src="./images/js.png" alt="js" />
-        </div>
-        <div class="habilidad">
-          <img class="habi-logo" src="./images/react.png" alt="react" />
-        </div>
-        <div class="habilidad">
-          <img class="habi-logo" src="./images/bt.png" alt="bt" />
-        </div>
-        <div class="habilidad">
-          <img class="habi-logo" src="./images/ps.png" alt="ps" />
-        </div>
-        <div class="habilidad">
-          <img class="habi-logo" src="./images/git.png" alt="git" />
+          <img class="skill" src="./images/html.png" alt="html" />
+          <img class="skill" src="./images/CSS.png" alt="css" />
+          <img class="skill" src="./images/js.png" alt="js" />
+          <img class="skill" src="./images/react.png" alt="react" />
+          <img class="skill" src="./images/bt.png" alt="bt" />
+          <img class="skill" src="./images/ps.png" alt="ps" />
+          <img class="skill" src="./images/git.png" alt="git" />
         </div>
       </div>
     </section>
@@ -96,75 +93,47 @@
             <h3 class="proyecto-title">Zoen gaming</h3>
             <p class="proyecto-descripcion">
               Pagina web de equipo de esports. Creada y diseñada completamente
-              por mi con HTML, CSS y Vanilla JS.
+              por mi con HTML, CSS y Vanilla JS. Este proyecto fue desarrollado 
+              por mi en base a los conocimientos que he ido adquiriendo sin la 
+              ayuda de ningun video, ni copypaste.
             </p>
-            <a href="https://zoen-gaming.netlify.app/" class="pro-btn">
-              <i class="fas fa-link"></i> Ver proyecto </a
+            <div class="pro-links">
+              <a 
+              href="https://zoen-gaming.netlify.app/" 
+              class="fas fa-link pro-btn"
+              > Ver proyecto</a
             ><br />
             <a
-              href="https://github.com/HiImMrMeeseek/Zoen-Gaming/"
-              class="pro-btn"
-            >
-              <i class="fas fa-link"></i> Ver repositorio
-            </a>
+              href="https://github.com/Zoen-DEV/zoen-gaming"
+              class="fas fa-link pro-btn"
+            > Ver repositorio</a>
+            </div>
+            
           </div>
-        </div>
-        <div class="pro-item">
-          <div class="info-container">
-            <h3 class="proyecto-title">Proyecto</h3>
-            <p class="proyecto-descripcion">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-              necessitatibus illo assumenda voluptatum harum, beatae vitae,
-              quidem ducimus perspiciatis adipisci rem deleniti atque temporibus
-              libero dolorem eius corporis officiis animi?
-            </p>
-            <a href="" class="pro-btn">
-              <i class="fas fa-link"></i> Ver proyecto
-            </a>
-          </div>
-          <img class="pro-img" src="./images/logo.png" alt="img-proyecto" />
-        </div>
-        <div class="pro-item">
-          <img class="pro-img" src="./images/logo.png" alt="img-proyecto" />
-          <div class="info-container">
-            <h3 class="proyecto-title">Proyecto</h3>
-            <p class="proyecto-descripcion">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-              necessitatibus illo assumenda voluptatum harum, beatae vitae,
-              quidem ducimus perspiciatis adipisci rem deleniti atque temporibus
-              libero dolorem eius corporis officiis animi?
-            </p>
-            <a href="" class="pro-btn">
-              <i class="fas fa-link"></i> Ver proyecto
-            </a>
-          </div>
-        </div>
-        <div class="pro-item">
-          <div class="info-container">
-            <h3 class="proyecto-title">Proyecto</h3>
-            <p class="proyecto-descripcion">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-              necessitatibus illo assumenda voluptatum harum, beatae vitae,
-              quidem ducimus perspiciatis adipisci rem deleniti atque temporibus
-              libero dolorem eius corporis officiis animi?
-            </p>
-            <a href="" class="pro-btn">
-              <i class="fas fa-link"></i> Ver proyecto
-            </a>
-          </div>
-          <img class="pro-img" src="./images/logo.png" alt="img-proyecto" />
         </div>
       </div>
     </section>
     <section id="sobre-mi" class="sobre-mi-container">
-      <h1>¿Quien soy?</h1>
+      <h1 class="about-title">Sobre mi</h1>
+      <p class="about-info">
+        Hace casi un año que estoy estudiando desarrollo web frontend, 
+        si bien mis conocimientos no son muy avanzados aun me esfuerzo día a día 
+        para seguir aprendiendo y mejorando.<br>
+        Me considero una persona proactiva, curiosa y resolutiva. Cuando me 
+        encuentro con un problema siempre intento investigar a fondo hasta dar 
+        con una solución.<br>
+        Deseo tener la oportunidad de ser parte de un equipo de trabajo donde 
+        pueda seguir desarrollando mis habilidades, donde pueda aprender de mis 
+        compañeros y aportar con todo lo que pueda a los proyectos que se me 
+        presenten.
+      </p>
     </section>
 
     <footer class="foot-container">
-      <p>
+      <p class="foot-info">
         copyright &copy; Portafolio creado completamente por Enzo Gabriel
         Holgado con HTML, CSS y vanilla javascript. 2022-<span id="date"></span>
-        .Todos los derechos reservados
+        <br>Todos los derechos reservados
       </p>
     </footer>
 
