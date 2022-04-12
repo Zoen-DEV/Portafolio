@@ -245,7 +245,10 @@ html {
         top: 1px;
     }
     .nav-toggle{
-        overflow: hidden;
+        display: none;
+    }
+    .toggle-links{
+        display: none;
     }
     /* main */
     .main-container{
