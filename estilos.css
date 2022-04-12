@@ -244,6 +244,9 @@ html {
         position: relative;
         top: 1px;
     }
+    .nav-toggle{
+        display: none;
+    }
     /* main */
     .main-container{
         flex-direction: row;
