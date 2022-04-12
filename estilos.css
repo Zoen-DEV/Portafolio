@@ -25,7 +25,8 @@ html {
 /* nav */
 .header {
   background: transparent;
-  position: absolute;
+  position: fixed;
+  z-index: 100;
   width: 100%;
   background-color: var(--clr-grey3);
   border-bottom: 2px solid var(--clr-blue1);
